@@ -158,7 +158,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2018**
 
-- 📄 [FuturePred](https://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Future_Frame_Prediction_CVPR_2018_paper.html):Future frame prediction for anomaly detection–a new baseline, 📰 `CVPR`  [code](code：https://github.com/StevenLiuWen/ano_pred_cvpr2018)
+- 📄 [FuturePred](https://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Future_Frame_Prediction_CVPR_2018_paper.html):Future frame prediction for anomaly detection–a new baseline, 📰 `CVPR`  [code](https://github.com/StevenLiuWen/ano_)
 
 🗓️ **2020**
 
@@ -166,7 +166,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
   
   🗓️ **2021**
 
-- 📄 [F$^2$PN](https://ieeexplore.ieee.org/abstract/document/9622181):Future frame prediction network for video anomaly detection, 📰 `TPAMI` [code](code：https://github.com/StevenLiuWen/ano_pred_cvpr2018)
+- 📄 [F$^2$PN](https://ieeexplore.ieee.org/abstract/document/9622181):Future frame prediction network for video anomaly detection, 📰 `TPAMI` [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
 
 - 📄 [AMMC-Net](https://ojs.aaai.org/index.php/AAAI/article/view/16177):Appearance-motion memory consistency network for video anomaly detection, 📰 `AAAI` [code](https://github.com/NjuHaoZhang/AMMCNet_AAAI2021)
 
@@ -222,7 +222,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 - 📄 [NormalGraph](https://www.sciencedirect.com/science/article/abs/pii/S0925231220317720):Normal graph: Spatial temporal graph convolutional networks based prediction network for skeleton based video anomaly detection, 📰 `Neurocomputing`
 
-- 📄 [HSTGCNN](https://ieeexplore.ieee.org/abstract/document/9645572):A hierarchical spatio-temporal graph convolutional neural network for anomaly detection in videos, 📰 `TCSVT`  [code](code：https://github.com/DivineZeng/A-Hierarchical-Spatio-Temporal-Graph-Convolutional-Neural-Network-for-Anomaly-Detection-in-Videos)
+- 📄 [HSTGCNN](https://ieeexplore.ieee.org/abstract/document/9645572):A hierarchical spatio-temporal graph convolutional neural network for anomaly detection in videos, 📰 `TCSVT`  [code](https://github.com/DivineZeng/A-Hierarchical-Spatio-Temporal-Graph-Convolutional-Neural-Network-for-Anomaly-Detection-in-Videos)
 
 🗓️ **2022**
 
@@ -234,7 +234,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2023**
 
-- 📄 [STG-NF](https://openaccess.thecvf.com/content/ICCV2023/html/Hirschorn_Normalizing_Flows_for_Human_Pose_Anomaly_Detection_ICCV_2023_paper.html):Normalizing flows for human pose anomaly detection, 📰 `ICCV` [code](code：https://github.com/orhir/STG-NF)
+- 📄 [STG-NF](https://openaccess.thecvf.com/content/ICCV2023/html/Hirschorn_Normalizing_Flows_for_Human_Pose_Anomaly_Detection_ICCV_2023_paper.html):Normalizing flows for human pose anomaly detection, 📰 `ICCV` [code](https://github.com/orhir/STG-NF)
 
 - 📄 [MoPRL](https://ieeexplore.ieee.org/abstract/document/10185076):Regularity learning via explicit distribution modeling for skeletal video anomaly detection, 📰 `TCSVT`
 
@@ -248,7 +248,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2018**
 
-- 📄 [FuturePred](https://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Future_Frame_Prediction_CVPR_2018_paper.html):Future frame prediction for anomaly detection–a new baseline, 📰 `CVPR`  [code](code：https://github.com/StevenLiuWen/ano_pred_cvpr2018)
+- 📄 [FuturePred](https://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Future_Frame_Prediction_CVPR_2018_paper.html):Future frame prediction for anomaly detection–a new baseline, 📰 `CVPR`  [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
 
 🗓️ **2019**
 
@@ -304,7 +304,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2019**
 
-- 📄 [Attention-driven-loss](https://ieeexplore.ieee.org/abstract/document/8943099):Attention-driven loss for anomaly detection in video surveillance, 📰 `TCSVT`  [code](code：https://github.com/joeyzhouty/Attention-driven-loss)
+- 📄 [Attention-driven-loss](https://ieeexplore.ieee.org/abstract/document/8943099):Attention-driven loss for anomaly detection in video surveillance, 📰 `TCSVT`  [code](https://github.com/joeyzhouty/Attention-driven-loss)
 
 🗓️ **2020**
 
@@ -630,7 +630,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2020**
 
-- 📄 [MNAD](https://openaccess.thecvf.com/content_CVPR_2020/html/Park_Learning_Memory-Guided_Normality_for_Anomaly_Detection_CVPR_2020_paper.html\):Learning memory-guided normality for anomaly detection, 📰 `CVPR`  [code](https://github.com/cvlab-yonsei/MNAD)  [homepage](https://cvlab.yonsei.ac.kr/projects/MNAD/)
+- 📄 [MNAD](https://openaccess.thecvf.com/content_CVPR_2020/html/Park_Learning_Memory-Guided_Normality_for_Anomaly_Detection_CVPR_2020_paper.html):Learning memory-guided normality for anomaly detection, 📰 `CVPR`  [code](https://github.com/cvlab-yonsei/MNAD)  [homepage](https://cvlab.yonsei.ac.kr/projects/MNAD/)
 
 🗓️ **2021**
 
@@ -672,7 +672,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2018**
 
-- 📄 [DeepMIL](https://openaccess.thecvf.com/content_cvpr_2018/html/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.html): Real-world anomaly detectionin surveillance videos, 📰 `CVPR` [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018)[homepage](http://crcv.ucf.edu/projects/real-world/)
+- 📄 [DeepMIL](https://openaccess.thecvf.com/content_cvpr_2018/html/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.html): Real-world anomaly detectionin surveillance videos, 📰 `CVPR` [code](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018) [homepage](http://crcv.ucf.edu/projects/real-world/)
 
 ### 2.1 Model Input
 
@@ -772,7 +772,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2018**
 
-- 📄 [DeepMIL](https://openaccess.thecvf.com/content_cvpr_2018/html/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.html): Real-world anomaly detectionin surveillance videos, 📰 `CVPR` [code1](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018) [code2](https://github.com/Roc-Ng/DeepMIL) ([homepage](http://crcv.ucf.edu/projects/real-world/)
+- 📄 [DeepMIL](https://openaccess.thecvf.com/content_cvpr_2018/html/Sultani_Real-World_Anomaly_Detection_CVPR_2018_paper.html): Real-world anomaly detectionin surveillance videos, 📰 `CVPR` [code1](https://github.com/WaqasSultani/AnomalyDetectionCVPR2018) [code2](https://github.com/Roc-Ng/DeepMIL)  [homepage](http://crcv.ucf.edu/projects/real-world/)
 
 🗓️ **2019**
 

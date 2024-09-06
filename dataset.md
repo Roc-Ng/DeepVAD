@@ -339,6 +339,7 @@ AUC refers to the area under the Receiver Operating Characteristic (ROC) Curve. 
 </p>
 
 $$ TPR=\frac{TP}{TP+FN} $$
+
 $$ FPR=\frac{FP}{FP+TN} $$
 
 <p align = "justify"> 
@@ -415,7 +416,7 @@ Accuracy provides a straightforward metric to assess the overall performance of 
 Accuracy is often used for a quick assessment of model performance but is usually complemented by other metrics such as precision, recall, and the F1 score to fully evaluate model performance, especially with imbalanced datasets.When using accuracy as an evaluation metric, it is important to consider the distribution of the dataset. If the dataset has an uneven distribution of positive and negative samples, other metrics may need to be used in conjunction with accuracy to provide a more comprehensive assessment of the model's performance.
 </p>
 
-### 2.6 TIoU(Temporal Intersection over Union)[[Paper](https://dl.acm.org/doi/pdf/10.1145/3343031.3350998)]
+### 2.6TIoU(Temporal Intersection over Union)[[Paper](https://dl.acm.org/doi/pdf/10.1145/3343031.3350998)]
 
 <p align = "justify"> 
 TIoU is a video anomaly detection-specific metric that combines the temporal anomaly detection score with the model's ability to spatially locate the learned pattern of anomalies.TIoU evaluates the model's spatial localization accuracy by calculating the intersection over union (IoU) between the model's predicted anomaly region and the manually annotated region. This metric not only considers the model's ability to detect anomalies over time but also assesses the spatial accuracy of the model's anomaly localization.
