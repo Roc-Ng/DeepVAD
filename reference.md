@@ -278,8 +278,6 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 🗓️ **2018**
 
-- 📄 [FuturePred](https://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Future_Frame_Prediction_CVPR_2018_paper.html):Future frame prediction for anomaly detection–a new baseline, 📰 `CVPR`  [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
-
 - 📄 [S$^2$-VAE](https://ieeexplore.ieee.org/abstract/document/8513816):Generative neural networks for anomaly detection in crowded scenes, 📰 `TIFS`
 
 🗓️ **2019**
@@ -301,6 +299,10 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 - 📄 [MoPRL](https://ieeexplore.ieee.org/abstract/document/10185076):Regularity learning via explicit distribution modeling for skeletal video anomaly detection, 📰 `TCSVT`
 
 **Prediction**
+
+🗓️ **2018**
+
+- 📄 [FuturePred](https://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Future_Frame_Prediction_CVPR_2018_paper.html):Future frame prediction for anomaly detection–a new baseline, 📰 `CVPR` [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
 
 🗓️ **2019**
 
