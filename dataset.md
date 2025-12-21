@@ -286,7 +286,7 @@ Th dataset is a novel benchmark created for the purpose of supervised open-set v
 <img src="https://github.com/kanyutingfeng/survey-dataset-photos/blob/photos/%E5%9B%BE%E7%89%8712.2.png" width="225" />
 </p>
 
-## 1.5 Video Anomaly Caption/Retrieval
+## 1.5 Video Anomaly Caption/Retrieval/Reasoning
 
 ### 1.5.1 UCA:Towards Surveillance Video-and-Language Understanding: New Dataset Baselines and Challenges(CVPR 2024)
 
@@ -428,3 +428,4 @@ $$ TIoU=\frac{1}{M}\sum_{j=1} ^M \frac{Area_p \cap Area_g}{Area_p \cup Area_g} \
 where the indicator II[.] ∈ {0,1} indicates whether the given 𝑗𝑡ℎ anomaly clip are predicted as anomaly according to the probability score 𝑃𝑗, 𝐴𝑟𝑒𝑎_𝑝represents the area of predicted anomalous region, 𝐴𝑟𝑒𝑎𝑔 is the area of annotated region, and 𝑀 is the number of clips that anomaly occurs.
 
 </p>
+
