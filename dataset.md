@@ -30,7 +30,7 @@
 | 1.4 Open-set Supervised VAD |          |                                                              |            |          |        |        |          |            |           |         |           |          |           |
 |            1.4.1            |   2022   |    [UBnormal](https://github.com/lilygeorgescu/UBnormal)     |    543     |   268    |  211   |   -    |    -     |  236,902   |  116,087  | 92,640  |  147,887  |  89,015  |    2.2    |
 
-## 1.5 Video Anomaly Caption/Retrieval
+## 1.5 Video Anomaly Caption/Retrieval/Reasoning
 
 | **Number** | **Year** |                         **Dataset**                          | **Videos** | **Queries** | **Avg word** | Hours |
 | :--------: | :------: | :----------------------------------------------------------: | :--------: | :---------: | :----------: | :---: |
@@ -426,4 +426,5 @@ $$ TIoU=\frac{1}{M}\sum_{j=1} ^M \frac{Area_p \cap Area_g}{Area_p \cup Area_g} \
 
 <p align = "justify"> 
 where the indicator II[.] ∈ {0,1} indicates whether the given 𝑗𝑡ℎ anomaly clip are predicted as anomaly according to the probability score 𝑃𝑗, 𝐴𝑟𝑒𝑎_𝑝represents the area of predicted anomalous region, 𝐴𝑟𝑒𝑎𝑔 is the area of annotated region, and 𝑀 is the number of clips that anomaly occurs.
+
 </p>
