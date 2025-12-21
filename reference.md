@@ -1,7 +1,3 @@
-# Deep Learning for Video Anomaly Detection: A Review
-
-This is the official repository for the paper entitled "**Deep Learning for Video Anomaly Detection: A Review**". 
-
 ## 📖 Table of contents
 
 - [Existing Reviews](#reviews)
@@ -24,8 +20,9 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
       - [1.4.1 Pseudo Anomalies](#141-Pseudo-Anomalies)
       - [1.4.2 Memory Bank](#142-Memory-Bank)
     - [1.5 Model Output](#15-Model-Output)
-      - [1.5.1 Frame Level](#151-Frame-level)
-      - [1.5.2 Pixel Level](#152-Pixel-level)
+      - [1.5.1 Frame Level Detection](#151-Frame-Level-Detection)
+      - [1.5.2 Pixel Level Detection](#152-Pixel-Level-Detection)
+      - [1.5.3 Sentence-Level Description](#153-Sentence-Level-Description)
   - [2. Weakly Supervised Video Anomaly Detection](#2-weakly-supervised-video-anomaly-detection)
     - [2.1 Model Input](#21-Model-Input)
       - [2.1.1 RGB](#211-RGB)
@@ -36,6 +33,7 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
     - [2.2 Methodology](#22-methodology)
       - [2.2.1 One-Stage MIL](#221-One-Stage-MIL)
       - [2.2.2 Two-Stage Self-Training](#222-Two-Stage-Self-Training)
+      - [2.2.3 VLM-based Interpretable Learning](#223-VLM-based-Interpretable-Learning)
     - [2.3 Refinement Strategy](#23-Refinement-Strategy)
       - [2.3.1 Temporal Modeling](#231-Temporal-Modeling)
       - [2.3.2 Spatio-Temporal Modeling](#232-Spatio-Temporal-Modeling)
@@ -44,8 +42,9 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
       - [2.3.5 Knowledge Distillation](#235-Knowledge-Distillation)
       - [2.3.6 Leveraging Large Models](#236-Leveraging-Large-Models)
     - [2.4 Model Output](#24-Model-Output)
-      - [2.4.1 Frame Level](#241-Frame-Level)
-      - [2.4.2 Pixel Level](#242-Pixel-Level)
+      - [2.4.1 Frame Level Detection](#241-Frame-Level-Detection)
+      - [2.4.2 Pixel Level Detection](#242-Pixel-Level-Detection)
+      - [2.4.3 Sentence-Level Description](#243-Sentence-Level-Description)
   - [3. Fully Supervised Video Anomaly Detection](#3-Fully-Supervised-Video-Anomaly-Detection)
     - [3.1 Appearance Input](#31-Appearance-Input)
     - [3.2 Motion Input](#32-Motion-Input)
@@ -527,6 +526,12 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 - 📄 [AnomalyRuler](https://openaccess.thecvf.com/content/CVPR2023/html/Singh_EVAL_Explainable_Video_Anomaly_Localization_CVPR_2023_paper.html):Follow the rules: Reasoning for video anomaly detection with large language models, 📰 `ECCV` [code](https://github.com/Yuchen413/AnomalyRuler)
 
+- 📄 [VLAVAD](https://bmva-archive.org.uk/bmvc/2024/papers/Paper_599/paper.pdf):Vlavad: vision-language models assisted unsupervised video anomaly detection, 📰 `BMVC`
+
+🗓️ **2025**
+
+- 📄 [SlowFastVAD](https://arxiv.org/abs/2504.10320):Slowfastvad: video anomaly detection via integrating simple detector and RAG-enhanced vision-language model, 📰 `arxiv`
+
 ### 1.3 Network Architecture
 
 #### 1.3.1 Auto-Encoder
@@ -662,13 +667,19 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 ### 1.5 Model Output
 
-#### 1.5.1 Frame Level
+#### 1.5.1 Frame-Level Detection
 
-#### 1.5.2 Pixel Level
+#### 1.5.2 Pixel-Level Detection
 
 🗓️ **2022**
 
 - 📄 [UPformer](https://dl.acm.org/doi/abs/10.1145/3503161.3548082):Pixel-level anomaly detection via uncertainty-aware prototypical transformer, 📰 `ACM MM`
+
+#### 1.5.3 Sentence-Level Description
+
+🗓️ **2025**
+
+- 📄 [SlowFastVAD](https://arxiv.org/abs/2504.10320):SlowFastVAD: video anomaly detection via integrating simple detector and RAG-enhanced vision-language model, 📰 `arxiv`
 
 ## 2. Weakly Supervised Video Anomaly Detection
 
@@ -812,6 +823,32 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 - 📄 [TPWNG](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Text_Prompt_with_Normality_Guidance_for_Weakly_Supervised_Video_Anomaly_CVPR_2024_paper.html):Text prompt with normality guidance for weakly supervised video anomaly detection, 📰 `CVPR`
 
+#### 2.2.3 VLM-based Interpretable Learning
+
+🗓️ **2024**
+
+##### 2.2.3.1 Category-level interpretability
+
+- 📄 [VadCLIP](https://dl.acm.org/doi/abs/10.1609/aaai.v38i6.28423):VadCLIP: adapting vision-language models for weakly supervised video anomaly detection, 📰 `AAAI`  [code](https://github.com/nwpu-zxr/VadCLIP)
+
+- 📄 [TPWNG](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Text_Prompt_with_Normality_Guidance_for_Weakly_Supervised_Video_Anomaly_CVPR_2024_paper.html):Text prompt with normality guidance for weakly supervised video anomaly detection, 📰 `CVPR`
+
+##### 2.2.3.2 Semantic-level interpretability
+
+🗓️ **2024**
+
+- 📄 [HAWK](https://openreview.net/forum?id=vBKoEZ1PG3&referrer=%5Bthe%20profile%20of%20Ying-Cong%20Chen%5D(%2Fprofile%3Fid%3D~Ying-Cong_Chen1)):Hawk: learning to understand open-world video anomalies, 📰 `NeurIPS`  [code](https://github.com/jqtangust/hawk)
+
+- 📄 [CUVA](https://openaccess.thecvf.com/content/CVPR2024/papers/Du_Uncovering_What_Why_and_How_A_Comprehensive_Benchmark_for_Causation_CVPR_2024_paper.pdf):Uncovering what why and how: a comprehensive benchmark for causation understanding of video anomaly, 📰 `CVPR`  [code](https://github.com/fesvhtr/CUVA)
+
+- 📄 [VADor](https://arxiv.org/abs/2401.05702):video anomaly detection and explanation via largelanguage models, 📰 `arxiv`
+
+- 📄 [LAVAD](https://openaccess.thecvf.com/content/CVPR2024/papers/Zanella_Harnessing_Large_Language_Models_for_Training-free_Video_Anomaly_Detection_CVPR_2024_paper.pdf):Harnessing large language models for training-free video anomaly detection, 📰 `CVPR`  [code](https://github.com/lucazanella/lavad)
+
+🗓️ **2025**
+
+- 📄 [VERA](https://arxiv.org/abs/2412.01095):Vera: explainable video anomaly detection via verbalized learning of vision-language models, 📰 `CVPR`  [code](https://github.com/vera-framework/VERA)
+
 ### 2.3 Refinement Strategy
 
 #### 2.3.1 Temporal Modeling
@@ -849,6 +886,10 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 - 📄 [CBCG](https://ieeexplore.ieee.org/abstract/document/10219658):Weakly supervised video anomaly detection based on cross-batch clustering guidance, 📰 `ICME`
 
 - 📄 [DMU](https://ojs.aaai.org/index.php/AAAI/article/view/25489):Dual memory units with uncertainty regulation for weakly supervised video anomaly detection, 📰 `AAAI`  [code](https://github.com/henrryzh1/UR-DMU)
+
+🗓️ **2025**
+
+- 📄 [DEN-ATM](https://ieeexplore.ieee.org/document/10957754):Dynamic erasing network with adaptive temporal modeling for weakly supervised video anomaly detection, 📰 `TNNLS`
 
 #### 2.3.2 Spatio-Temporal Modeling
 
@@ -954,9 +995,9 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 ### 2.4 Model Output
 
-#### 2.4.1 Frame Level
+#### 2.4.1 Frame-Level Detection
 
-#### 2.4.2 Pixel Level
+#### 2.4.2 Pixel-Level Detection
 
 🗓️ **2019**
 
@@ -965,6 +1006,8 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 🗓️ **2021**
 
 - 📄 [WSSTAD](https://arxiv.org/abs/2108.03825):Weakly-supervised spatio-temporal anomaly detection in surveillance video, 📰 `IJCAI`
+
+#### 2.4.3 Sentence-Level Description
 
 ## 3. Fully Supervised Video Anomaly Detection
 
@@ -1011,6 +1054,10 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
   🗓️ **2020**
 
 - 📄 [SPIL](https://link.springer.com/chapter/10.1007/978-3-030-58548-8_5):Human interaction learning on 3d skeleton point clouds for video violence recognition, 📰 `ECCV`
+  
+  🗓️ **2024**
+
+- 📄 [RTPNet](https://www.sciencedirect.com/science/article/pii/S1077314224002042):A framework for detecting fighting behavior based on key points of human skeletal posture, 📰 `CVIU`[dataset](https://github.com/ChinaZhangPeng/Violence-Image-Dataset)
 
 ### 3.4 Audio Input
 
@@ -1052,6 +1099,9 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 
 - 📄 [C2FPL](https://openaccess.thecvf.com/content/WACV2024/html/Al-lahham_A_Coarse-To-Fine_Pseudo-Labeling_C2FPL_Framework_for_Unsupervised_Video_Anomaly_Detection_WACV_2024_paper.html):A coarse-to-fine pseudo-labeling (c2fpl) framework for unsupervised video anomaly detection, 📰 `WACV`  [code](https://github.com/AnasEmad11/C2FPL)
 
+- 📄 [LANP](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00941.pdf):Learning anomalies with normality prior for unsupervised video anomaly detection, 📰 `ECCV`  [code](https://github.com/shyern/LANP-UVAD)
+  
+- 📄 [FRD](https://ieeexplore.ieee.org/document/10539327):Feature reconstruction with disruption for unsupervised video anomaly detection, 📰 `TMM`  [code](https://github.com/tcc-power/FRD-unsupervised-video-anomaly-detection)
 ### 4.2 Change Detection Based Paradigm
 
 🗓️ **2016**
@@ -1081,6 +1131,10 @@ This is the official repository for the paper entitled "**Deep Learning for Vide
 - 📄 [CIL](https://ojs.aaai.org/index.php/AAAI/article/view/20053):A causal inference look at unsupervised video anomaly detection, 📰 `AAAI`
 
 - 📄 [LBR-SPR](https://openaccess.thecv.com/content/CVPR2022/html/Yu_Deep_Anomaly_Discovery_From_Unlabeled_Videos_via_Normality_Advantage_and_CVPR_2022_paper.html):Deep anomaly discovery from unlabeled videos via normality advantage and self-paced refinement, 📰 `CVPR`  [code](https://github.com/yuguangnudt/LBR_SPR)
+  
+🗓️ **2024**
+
+- 📄 [CLAP](https://openaccess.thecvf.com/content/CVPR2024/papers/Al-lahham_Collaborative_Learning_of_Anomalies_with_Privacy_CLAP_for_Unsupervised_Video_CVPR_2024_paper.pdf):Collaborative learning of anomalies with privacy (clap) for unsupervised video anomaly detection: A new baseline, 📰 `CVPR`  [code](https://github.com/AnasEmad11/CLAP)
 
 ## 5. Open Set Supervised Video Anomaly Detection
 
@@ -1211,16 +1265,3 @@ The following tables are the performance comparison of semi-supervised VAD, weak
   | TMAE      | ICME 2022   | Change detection | 89.8   | -           | 75.7 | 94.1 | 71.4        | -    |
   | CIL       | AAAI 2022   | Others           | 90.3   | 97.6        | 84.9 | 99.4 | -           | 100  |
   | LBR-SPR   | CVPR 2022   | Others           | 92.8   | -           | 81.1 | 97.2 | 72.6        | -    |
-
-## Citation
-
-If you find our work useful, please cite our paper:
-
-```
-@article{wu2024deep,
-  title={Deep Learning for Video Anomaly Detection: A Review},
-  author={Wu, Peng and Pan, Chengyu and Yan, Yuting and Pang, Guansong and Wang, Peng and Zhang, Yanning},
-  journal={arXiv preprint arXiv:xxxxx},
-  year={2024}
-}
-```
