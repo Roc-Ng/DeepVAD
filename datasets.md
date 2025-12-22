@@ -50,7 +50,7 @@
 
     
 #  Dataset Information
-## VAD Datasets Table
+## VAD Datasets
 
 |       **Number**        | **Year** |                         **Dataset**                          | **Videos** |  Videos  | Videos | Videos |  Videos  | **Frames** |  Frames   | Frames  |  Frames   |  Frames  | **Hours** |
 | :---------------------: | :------: | :----------------------------------------------------------: | :--------: | :------: | :----: | :----: | :------: | :--------: | :-------: | :-----: | :-------: | :------: | :-------: |
@@ -82,7 +82,7 @@
 | 1.4 Open-set Supervised VAD |          |                                                              |            |          |        |        |          |            |           |         |           |          |           |
 |            1.4.1            |   2022   |    [UBnormal](https://github.com/lilygeorgescu/UBnormal)     |    543     |   268    |  211   |   -    |    -     |  236,902   |  116,087  | 92,640  |  147,887  |  89,015  |    2.2    |
 
-## Video Anomaly Caption/Retrieval Table
+## Video Anomaly Caption/Retrieval/Reasoning
 
 | **Number** | **Year** |                         **Dataset**                          | **Videos** | **Queries** | **Avg word** | Hours |
 | :--------: | :------: | :----------------------------------------------------------: | :--------: | :---------: | :----------: | :---: |
@@ -338,7 +338,7 @@ Th dataset is a novel benchmark created for the purpose of supervised open-set v
 <img src="https://github.com/kanyutingfeng/survey-dataset-photos/blob/photos/%E5%9B%BE%E7%89%8712.2.png" width="225" />
 </p>
 
-## 1.5 Video Anomaly Caption/Retrieval
+## 1.5 Video Anomaly Caption/Retrieval/Reasoning
 
 ### 1.5.1 UCA:Towards Surveillance Video-and-Language Understanding: New Dataset Baselines and Challenges(CVPR 2024)
 
@@ -716,6 +716,7 @@ Here, ![V](https://latex.codecogs.com/svg.image?\inline%20V) is a subset of vide
 </p>
 
 Frames with importance scores ![I(t)≥τ](https://latex.codecogs.com/svg.image?\inline%20I(t)%20\geq%20\tau) are densely sampled (at 10 fps) to focus the evaluation on key segments, reducing noise and computational cost.
+
 
 
 
