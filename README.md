@@ -1,14 +1,14 @@
-## 🔥🔥 Our Survey -->TNNLS2026
-<div align="center">
+## 🔥🔥 Our Survey -->DeepVAD TNNLS2026
+
   <h2> Deep Learning for Video Anomaly Detection: A Review</h2>
 
   **Authors:** 
 [**Peng Wu**](https://scholar.google.com/citations?user=QkNqUH4AAAAJ&hl),
 [**Chengyu Pan**](https://scholar.google.com/citations?user=QkNqUH4AAAAJ&hl=zh-CN),
-[**Yuting Yan**](https://scholar.google.com/citations?user=QkNqUH4AAAAJ&hl=zh-CN)
-[**Guansong Pang**](https://scholar.google.com/citations?hl=zh-CN&user=1ZO7pHkAAAAJ)
-[**Qingsen Yan**](https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ)
-[**Peng Wang**](https://scholar.google.com/citations?user=aPLp7pAAAAAJ&hl=zh-CN)
+[**Yuting Yan**](https://scholar.google.com/citations?user=QkNqUH4AAAAJ&hl=zh-CN),
+[**Guansong Pang**](https://scholar.google.com/citations?hl=zh-CN&user=1ZO7pHkAAAAJ),
+[**Qingsen Yan**](https://scholar.google.com/citations?hl=zh-CN&user=BSGy3foAAAAJ),
+[**Peng Wang**](https://scholar.google.com/citations?user=aPLp7pAAAAAJ&hl=zh-CN),
 [**Yanning Zhang**](https://scholar.google.com/citations?hl=zh-CN&user=-wzlS7QAAAAJ)
 
 This is the **web-based extension** of the **DeepVAD** project. It includes two main parts: **Datasets & Evaluation Metrics** and **References**. The site provides detailed descriptions of the datasets used in the paper, the evaluation metrics adopted, and the references cited. For each reference, we include its category, link to the original paper, project homepage, and code repository (if available).
@@ -17,7 +17,6 @@ This is the **web-based extension** of the **DeepVAD** project. It includes two 
 
 
 ## 📄 More Information
-
 - Dataset and evaluation details: [datasets.md](./datasets.md)  
 - References and citation list: [reference.md](./reference.md)
 
